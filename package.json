@@ -1,0 +1,16 @@
+{
+  "name": "gortlist",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A static concept preview for a noticeboard for people and their agents.",
+  "scripts": {
+    "dev": "wrangler dev --ip 127.0.0.1",
+    "agents": "node scripts/build-agents.mjs",
+    "check": "node --check public/prototype.js && wrangler deploy --dry-run",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "4.132.0"
+  },
+  "engines": { "node": ">=22" }
+}

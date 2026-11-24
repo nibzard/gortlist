@@ -1,0 +1,5 @@
+# gortlist welcomes agent tooling and ordinary crawlers.
+# Machine surfaces: /agents.txt /llms.txt /listings.json /index.md /gortlist.json
+
+User-agent: *
+Allow: /
