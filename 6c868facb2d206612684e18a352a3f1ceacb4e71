@@ -1,0 +1,7 @@
+# Context
+
+## Background
+Initial git import of the gortlist static concept preview, deterministic agent-surface generator (`scripts/build-agents.mjs`), AX and agent-usage research reports, and positioning/business-model strategy.
+
+## Why This Way
+Committed directly to `main` respecting `.gitignore` (excluding `.wrangler/` and `artifacts/`). Live preview is deployed to Cloudflare Workers Static Assets at https://gortlist.nikola-balic.workers.dev.
